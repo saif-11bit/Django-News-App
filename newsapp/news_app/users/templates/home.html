@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1 class="display-4">Newspaper App</h1>
+    <p class="lead">A Newspaper Website build with django,</p>
+    <p class="lead"><a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button">View Articles</a></p>
+</div>
+{% endblock %}
